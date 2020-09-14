@@ -2,5 +2,5 @@ Django==2.1
 django-admin==2.0.1
 django-cors-headers==2.4.0
 djangorestframework==3.11.0
+psycopg2==2.8.5
 django-jsonfield==1.4.0
-gunicorn==20.0.4
