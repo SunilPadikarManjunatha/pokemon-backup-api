@@ -6,8 +6,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
 
-ALLOWED_HOSTS = ['*', 'pokemonbackupapi.herokuapp.com']
-CORS_ORIGIN_ALLOW_ALL = True
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
@@ -17,7 +15,8 @@ SECRET_KEY = '%+ut0ky$p84jjm3txu+gi3*&h6z*5q7@u=)qd_#gj%wxf#0)n='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*', 'pokemonbackupapi.herokuapp.com']
+CORS_ORIGIN_ALLOW_ALL = True
 
 #API
 POKEMON_API_URL = 'https://api.pokemontcg.io/v1/cards?setCode=base4'
