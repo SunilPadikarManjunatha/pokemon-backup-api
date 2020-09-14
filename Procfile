@@ -1,1 +1,1 @@
-web: gunicorn backup.wsgi:application --log-file -
+web: gunicorn pokemon_backup_api.wsgi:application --log-file -
