@@ -72,14 +72,10 @@ WSGI_APPLICATION = 'pokemon_backup_api.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        # 'NAME': 'pokemon_backup',
-        'NAME': 'debb592g2oifhk',
-        # 'USER': 'postgres',
-        'USER': 'byvejgenibvjgw',
-        # 'PASSWORD': 'postgres',
-        'PASSWORD': '38c064983f2f80644abb58fdecce4718e3c20438a19a9c50cab508293116e195',
-        # 'HOST': '127.0.0.1',
-        'HOST': 'ec2-3-226-231-4.compute-1.amazonaws.com',
+        'NAME': 'pokemon_backup',
+        'USER': 'postgres',
+        'PASSWORD': 'postgres',
+        'HOST': '127.0.0.1',
         'PORT': '5432',
     }
 }
